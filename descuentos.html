@@ -9,13 +9,46 @@
 </head>
 <body>
    <header>
-
+    <h1> Bienvenidos!!</h1>
+    <h2>Aqui podra calcular el descuento de sus productos</h2>
    </header>
    <main>
+       <article class="manualDiscounts">
+           <form class="fristDiscounds">
+               <label for="inputDiscound" id="labelDiscound">Ingresa el porsentaje de descuento</label>
+               <input type="text" id="inputDiscound"/>
+               <label for="inputPrice" id="labelPrice">Ingresa el precio orginal</label>
+               <input type="text" id="inputPrice"/>
+               <button class="btn" type="button" onclick="calculateManualDiscount"()>Calcular</button>
 
-   </main>
-   <footer>
-       
+           </form>
+       </article>
+
+       <article class="couponDiscounts">
+        <form class="secondDiscounts">
+            <label for="inputDiscound" id="labelDiscound">Ingresa el id del cupon</label>
+            <input type="text" id="inputDiscound"/>
+            <label for="inputPrice" id="labelPrice">Ingresa el precio orginal</label>
+            <input type="text" id="inputPrice"/>
+            <button class="btn" type="button" onclick="calculateDiscountCoupon"()>Calcular</button>
+        </form>
+    </article>
+    </main>
+    
+    <aside>
+        <section class="recultados">
+            <div class="fristDiscount">
+                <p></p>
+            </div>
+            <div class="secoundDiscound">
+                <p></p>
+            </div>
+        </section>
+    </aside>
+   
+   
+    <footer>
+    <p>Todos los derechos reservados, sistemas informaticos knox allerin & systempunks, en colaboracion con Aztheroidsys.</p>
    </footer>
 
     <script src="descuentos.js"></script>

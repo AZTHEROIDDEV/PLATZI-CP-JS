@@ -1,0 +1,56 @@
+body{
+    color: rgb(14, 58, 94);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+header{
+    background-color: cyan;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border:solid 5px black;
+    border-radius: 15px;
+    color: rgb(50, 135, 205);
+}
+
+main{
+    width: 70%;
+}
+.manualDiscounts{
+    width: 60%;
+    margin: 100px 50px 100px 50px;
+    padding: 50px 50px 50px 50px; 
+    background-color: chocolate;
+
+}
+
+.couponDiscounts{
+    width: 60%;
+    margin:50px 50px 100px 50px;
+    padding: 50px 50px 50px 50px;
+    background-color: darkslategrey;
+}
+
+
+
+.btn{
+margin:  30px 5px 5px 5px;
+padding: 5px 100px 5px 5px;
+
+}
+
+aside{
+    width: 5%;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px; 
+    background-color: rgba(0, 0, 255, 0.945);
+}
+
+
+footer{
+    background-color: cyan;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border:solid 5px black;
+    border-radius: 15px;
+    color: rgb(50, 135, 205);
+}
